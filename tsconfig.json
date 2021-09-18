@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2018", "dom", "esnext"],
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "dist",
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "types": ["jest", "node"]
+  },
+  "include": ["src/**/*"]
+}
